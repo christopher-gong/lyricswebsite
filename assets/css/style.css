@@ -1,0 +1,135 @@
+#q1-navbar {
+	font-family: 'Maven Pro', sans-serif;
+	background: #9DB4C0;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	width: 98%;
+}
+
+#button:hover {
+	opacity: .5;
+	cursor: pointer;
+}
+
+#button {
+	margin-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.login {
+	position: absolute;
+	right: 0;
+}
+.signUp {
+	position: absolute;
+	right: 70px;
+}
+.search {
+  position: relative;
+  left: 10px;
+}
+
+.banner {
+	height: 160px;
+	border-style: solid;
+	border-width: 2px;
+    padding: 25px;
+    margin: 40px 5px 70px 5px;
+    border-color: black;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-style: solid;
+	border-width: 2px;
+    padding: 10px;
+    margin: 45px 5px 15px 5px;
+    border-color: white;
+}
+
+.songs {
+	height: 350px;
+	border-style: solid;
+	border-width: 2px;
+    padding: 25px;
+    margin: 15px;
+    border-color: black;
+}
+
+.about {
+	height: 200px;
+	border-style: solid;
+	border-width: 2px;
+    padding: 25px;
+    margin: 15px;
+    border-color: black;
+}
+
+.video {
+	height: 216px;
+	width: 384px;
+	border-style: solid;
+	border-width: 2px;
+    padding: 25px;
+    margin: 15px;
+    border-color: black;
+}
+
+.right-side {
+	height: 900px;
+	width: 60%;
+}
+
+.profile {
+  height: 170px;
+  width: 170px;
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 2px;
+    padding: 25px;
+    margin: 15px;
+    border-color: black;
+	text-align: center;
+	position: relative;
+	bottom: 130px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.top {
+  height: 240px;
+	border-style: solid;
+	border-width: 2px;
+    border-color: white;
+}
+
+.social-media {
+  height: 20px;
+	width: 170px;
+	border-style: solid;
+	border-width: 2px;
+    border-color: white;
+		position: relative;
+	bottom: 345px;
+	left: 68%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	
+  
+}
+
+.media-circle {
+  height: 12px;
+  width: 12px;
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 2px;
+    padding: 4px;
+    margin: 10px;
+    border-color: black;
+	text-align: center;
+}
