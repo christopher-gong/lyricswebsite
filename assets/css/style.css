@@ -115,23 +115,22 @@
   height: 300px;
 	border-style: solid;
 	border-width: 2px;
-    border-color: black;
+    border-color: transparent;
 }
 
 .social-media {
   height: 30px;
-	width: 300px;
-	border-style: solid;
-	border-width: 2px;
-    border-color: transparent;
-		position: relative;
-	bottom: 380px;
-	margin-left: 200px;
-	left: 55%;
-	transform: translate(-50%, -50%);
-	display: flex;
-	
-  
+  width: 300px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+  position: relative;
+  margin-left: 200px;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  top: 10px;
+
 }
 
 .media-circle {
@@ -157,9 +156,25 @@
 	background-color: #ff0000;
 }
 
-.name {
+#name {
 	font-family: 'Maven Pro', sans-serif;
 	font-size: 20px;
 	justify-content: center;
 	display: flex;
+	position: relative;
+	bottom: 10px;
+	left: 30px;
+}
+
+.nameandlinks {
+	display: flex;
+	flex-direction: row;
+	border-style: solid;
+	border-width: 2px;
+    padding: 0px;
+    height: 30px;
+    border-color: transparent;
+    position: relative;
+    bottom: 390px;
+
 }
