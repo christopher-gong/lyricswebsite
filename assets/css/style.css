@@ -112,10 +112,10 @@
 }
 
 .top {
-  height: 300px;
+  	height: 300px;
 	border-style: solid;
 	border-width: 2px;
-    border-color: transparent;
+    border-color: black;
 }
 
 .social-media {
