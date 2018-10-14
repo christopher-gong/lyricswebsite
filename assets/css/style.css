@@ -142,6 +142,10 @@
 }
 
 .media-circle {
+  font-size: 13px;
+  border-radius: 5px;
+  display:  flex;
+  justify-content: space-around;
   height: 25px;
   width: 130px;
   border-style: solid;
@@ -151,18 +155,23 @@
   text-align: center;
   font-family: 'Maven Pro', sans-serif;
   color:  white;
+  transition: opacity 1s;
 }
 
 #instagram {
-	background-color: #2d2d2d;
+	background-color: #6a6a6a;
+	transition: 0.5s;
 }
 
 #twitter {
-	background-color: #00aced;
+	background-color: #1da1f2;
+	transition: 0.5s;
+	/* transition: opacity 1s; */
 }
 
 #youtube {
 	background-color: #ff0000;
+	transition: 0.5s;
 }
 
 #name {
@@ -216,4 +225,32 @@ body {
 	padding:  0px;
 	margin-block-start: 0px;
 	font-style: italic;
+}
+
+.icon {
+	background-image:  url("../img/instagram.png");
+	height: 20px;
+	padding-top: 2px;
+	color:  white;
+	/* z-index: 1000; */
+}
+
+.smtext {
+	padding-top: 3px;
+	font-weight: 200;
+}
+
+#twitter:hover {
+  background: #1988cc;
+  cursor: pointer;
+}
+
+#instagram:hover {
+  background: #504f4f;
+  cursor: pointer;
+}
+
+#youtube:hover {
+  background: #c50b0b;
+  cursor: pointer;
 }
